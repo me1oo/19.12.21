@@ -1,0 +1,13 @@
+
+@media screen and (max-width: 450px) {
+  .page-header__background-charity {
+    background-image: url('../images/320/charity/charity-cover-320.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    height: 221px;
+  }
+}
+
+
