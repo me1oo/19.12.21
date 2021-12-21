@@ -12,6 +12,7 @@
     --color-grey-background: #73727A;
   }
 
+
   body {
     margin: 0;
     padding: 0;
@@ -526,6 +527,55 @@ animation: sweep .5s ease-in-out;
   color: var(--color-green-btn-hover);
   background-color:    var(--color-green-hover);
 }
-
-
 /* Кнопки END */
+
+
+
+
+/* SVG */
+.svg_vk {
+  width: 28px;
+  height: 28px;
+  background-color: #fff;
+  -webkit-mask-image: url(../svg/vk.svg);
+  -webkit-mask-size:contain;
+  -webkit-mask-position:center;
+  -webkit-mask-repeat:no-repeat;
+  transition: 0.2s all;
+}
+.svg_inst {
+  width: 28px;
+  height: 28px;
+  background-color: #fff;
+  -webkit-mask-image: url(../svg/instagram.svg);
+  -webkit-mask-size:contain;
+  -webkit-mask-position:center;
+  -webkit-mask-repeat:no-repeat;
+  transition: 0.2s all;
+}
+.svg_lk {
+  width: 28px;
+  height: 28px;
+  background-color: #fff;
+  -webkit-mask-image: url(../svg/lk.svg);
+  -webkit-mask-size:contain;
+  -webkit-mask-position:center;
+  -webkit-mask-repeat:no-repeat;
+  transition: 0.2s all;
+}
+
+.svg_vk:hover {
+  background-color: red;
+  transition: 0.2s all;
+}
+
+.svg_inst:hover {
+  background-color: red;
+  transition: 0.2s all;
+}
+
+.svg_lk:hover {
+  background-color: red;
+  transition: 0.2s all;
+}
+/* SVG */
